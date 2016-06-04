@@ -7,7 +7,7 @@ let Request = require('../');
 
 Request({
 	method: 'GET',
-	url: 'https://google.com'
+	url: 'https://google.com/'
 })
 .then((data) => {
 	console.log(data);
